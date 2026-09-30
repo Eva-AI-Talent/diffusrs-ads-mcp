@@ -1,0 +1,14 @@
+{
+  "slug": "TEMPLATE",
+  "created": null,
+  "product": { "url": null, "name": null, "images": [] },
+  "angle": null,
+  "audience": null,
+  "offer": null,
+  "pegs": [],
+  "defaults": { "model": "seedance-2-5", "aspect_ratio": "9:16", "resolution": "720p", "draftResolution": "480p" },
+  "assets": {},
+  "personas": {},
+  "videos": {},
+  "stageOrder": ["ideate","persona","script","storyboard","references","render","qa","edit","deliver"]
+}

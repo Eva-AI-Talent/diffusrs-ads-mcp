@@ -1,0 +1,13 @@
+{
+  "name": "slab",
+  "note": "Condensed caps on dark slabs with an accent bar down the left edge, persistent wordmark + offer chrome, product end card. Reads as a paid DTC ad rather than a creator post.",
+  "font": {"family": "DIN Condensed",
+           "file": "/System/Library/Fonts/Supplemental/DIN Condensed Bold.ttf",
+           "install": "Ships with macOS. On other platforms point font.file at any condensed bold."},
+  "colors": {"accent": "#FFFFFF", "ink": "#0C0D0B", "panel": "#111310", "card": "#0B0C0B",
+             "sub": "#E9EAE6", "body": "#C3C6C0", "muted": "#8E918B", "chip": "#1C1F1B"},
+  "layout": {"margin": 56, "chrome_y": 64, "lower_third": 0.63, "upper_third": 0.24,
+             "headline": 104, "sub": 40, "pad_x": 60, "slack": 28},
+  "motion": {"fade": 0.2, "blur": 0.28, "slide": 0.46, "stagger": 0.1, "alternate_direction": true},
+  "requires": ["colors.accent", "wordmark"]
+}

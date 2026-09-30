@@ -1,0 +1,29 @@
+{
+  "name": "diffusr-adkit",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Ad production pipeline for Claude Code, rendering through the diffusr MCP.",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "verify": "node scripts/verify.mjs",
+    "test": "node scripts/test.mjs",
+    "plan": "node scripts/verify.mjs --plan",
+    "check": "node scripts/check-no-direct-api.mjs",
+    "templates": "node scripts/match-template.mjs --list",
+    "pack": "node scripts/pack.mjs"
+  },
+  "optionalDependencies": {
+    "playwright": "^1.47.0"
+  },
+  "comments": {
+    "playwright": "OPTIONAL \u2014 only for Meta Ad Library pegs (scripts/adlib.mjs). Everything else needs no npm deps.",
+    "external": "yt-dlp (pegs) and ffmpeg/ffprobe (assembly, frames) are system tools, not npm packages.",
+    "rendering": "All rendering goes through the diffusr MCP. There is deliberately no model-API client here."
+  },
+  "devDependencies": {
+    "playwright": "^1.63.0"
+  }
+}

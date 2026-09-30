@@ -1,0 +1,42 @@
+{
+  "name": "vox",
+  "note": "Explainer motion-graphics look: everything sits on TEXTURED PAPER (never flat colour), type is an editorial serif for statements and a condensed caps face for labels, and the accent is a single red used for tags, ticks and caption pills. The cut changes layout every ~1.6-2.1s so it reads as an explainer rather than a talking head with captions. Fonts are free from Google Fonts; the pack IS the look, so a substitution is a different video.",
+  "font": {
+    "family": "Oswald",
+    "file": "~/Library/Fonts/Oswald[wght].ttf",
+    "install": "Free from Google Fonts: fonts.google.com/specimen/Oswald - download and double-click to install."
+  },
+  "serif": {
+    "family": "Playfair Display",
+    "file": "~/Library/Fonts/PlayfairDisplay[wght].ttf",
+    "install": "Free from Google Fonts: fonts.google.com/specimen/Playfair+Display"
+  },
+  "hand": {
+    "family": "Caveat",
+    "file": "~/Library/Fonts/Caveat[wght].ttf",
+    "install": "Free from Google Fonts: fonts.google.com/specimen/Caveat"
+  },
+  "colors": {
+    "accent": "#C8281E",
+    "ink": "#1A1614",
+    "paper": "#F3ECDC",
+    "rule": "#B9AE94",
+    "sub": "#4A4038",
+    "white": "#FFFFFF"
+  },
+  "layout": {
+    "margin": 96,
+    "headline": 96,
+    "label": 44,
+    "caption": 52,
+    "band_h": 640,
+    "split_h": 960,
+    "face_pct": 0.42,
+    "cap_y": { "A": 0.69, "G": 0.81, "F": 0.81, "S": 0.92, "P": 0.62 }
+  },
+  "motion": {
+    "fade": 0.28,
+    "ease": 1.1,
+    "stagger": 0.18
+  }
+}

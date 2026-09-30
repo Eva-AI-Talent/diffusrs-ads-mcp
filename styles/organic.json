@@ -1,0 +1,41 @@
+{
+  "name": "organic",
+  "note": "Creator/UGC look. PER-LINE pills (each proportionate to its own line \u2014 a uniform box was tried and rejected), lines OVERLAP by 20 so they connect with no gap, upper pill drawn over the lower so the stack reads as one shape. CapCut Sans Text Bold 66, radius 18. EVERY LINE IS WHITE WITH BLACK TEXT \u2014 a coloured second line was tried and rejected; the accent belongs on the CTA button and the end card, not in the headline. line_fills is what the supers read, so a brand that DOES want a coloured line changes it there rather than in code.",
+  "font": {
+    "family": "CapCut Sans Text",
+    "file": "~/Library/Fonts/CapCutSansText-Bold.otf",
+    "install": "Ships with CapCut. If missing, install CapCut or point font.file at any bold sans."
+  },
+  "colors": {
+    "accent": "#A8D62E",
+    "ink": "#111111",
+    "fill": "#FFFFFF",
+    "line_fills": [
+      "#FFFFFF",
+      "#FFFFFF"
+    ]
+  },
+  "layout": {
+    "size": 66,
+    "uniform_width": false,
+    "cta_top": 0.12,
+    "cta_mid": 0.44,
+    "btn_mid": 0.56,
+    "held": 0.18,
+    "padx": 34,
+    "row": 94,
+    "overlap": 20,
+    "radius": 18
+  },
+  "motion": {
+    "fade": 0.14,
+    "blur": 0.22,
+    "stagger": 0.1
+  },
+  "button": {
+    "text": "Get yours here!",
+    "pos_pct": 0.67,
+    "size": 58,
+    "h": 118
+  }
+}

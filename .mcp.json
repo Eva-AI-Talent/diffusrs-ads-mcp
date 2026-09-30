@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "diffusr": {
+      "type": "http",
+      "url": "https://app.diffusr.ai/api/mcp"
+    }
+  }
+}
